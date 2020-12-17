@@ -1,2 +1,2 @@
 # botdetector.tf
-Repo for TF2
+Repo for TF2BD Website
