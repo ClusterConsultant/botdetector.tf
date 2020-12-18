@@ -1,0 +1,1114 @@
+html {
+    background-color: #181a1b !important;
+}
+html, body, input, textarea, select, button {
+    background-color: #181a1b;
+}
+html, body, input, textarea, select, button {
+    border-color: #736b5e;
+    color: #e8e6e3;
+}
+a {
+    color: #3391ff;
+}
+table {
+    border-color: #545b5e;
+}
+::placeholder {
+    color: #b2aba1;
+}
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+    background-color: #555b00 !important;
+    color: #e8e6e3 !important;
+}
+::-webkit-scrollbar {
+    background-color: #202324;
+    color: #aba499;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #454a4d;
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: #575e62;
+}
+::-webkit-scrollbar-thumb:active {
+    background-color: #484e51;
+}
+::-webkit-scrollbar-corner {
+    background-color: #181a1b;
+}
+* {
+    scrollbar-color: #202324 #454a4d;
+}
+::selection {
+    background-color: #004daa !important;
+    color: #e8e6e3 !important;
+}
+::-moz-selection {
+    background-color: #004daa !important;
+    color: #e8e6e3 !important;
+}
+
+/* Invert Style */
+.jfk-bubble.gtx-bubble, embed[type="application/pdf"] {
+    filter: invert(100%) hue-rotate(180deg) contrast(90%) !important;
+}
+
+/* Override Style */
+.vimvixen-hint {
+    background-color: #7b5300 !important;
+    border-color: #d8b013 !important;
+    color: #f3e8c8 !important;
+}
+::placeholder {
+    opacity: 0.5 !important;
+}
+
+/* Variables Style */
+:root {
+   --darkreader-neutral-background: #181a1b;
+   --darkreader-neutral-text: #e8e6e3;
+   --darkreader-selection-background: #004daa;
+   --darkreader-selection-text: #e8e6e3;
+}
+
+/* Modified CSS */
+a {
+    color: inherit;
+    text-decoration-color: currentcolor;
+}
+button {
+    background-color: transparent;
+    background-image: none;
+    border-color: currentcolor;
+}
+input {
+    border-color: currentcolor;
+    outline-color: currentcolor;
+}
+.md-icon svg {
+    fill: currentcolor;
+}
+body,
+input {
+    color: rgba(232, 230, 227, 0.87);
+}
+code,
+pre,
+kbd {
+    color: rgba(232, 230, 227, 0.87);
+}
+.md-typeset h1 {
+    color: rgba(178, 206, 245, 0.62);
+}
+.md-typeset h5,
+.md-typeset h6 {
+    color: rgba(178, 206, 245, 0.62);
+}
+.md-typeset hr {
+    border-bottom-color: rgba(14, 25, 103, 0.32);
+}
+.md-typeset a {
+    color: rgba(232, 230, 227, 0.54);
+}
+.md-typeset a:focus,
+.md-typeset a:hover {
+    color: rgb(255, 114, 72);
+}
+.md-typeset code,
+.md-typeset pre,
+.md-typeset kbd {
+    color: rgb(210, 206, 200);
+}
+.md-typeset code {
+    background-color: rgb(26, 27, 35);
+}
+.md-typeset h1 code,
+.md-typeset h2 code,
+.md-typeset h3 code,
+.md-typeset h4 code,
+.md-typeset h5 code,
+.md-typeset h6 code {
+    background-color: transparent;
+    box-shadow: none;
+}
+.md-typeset a > code {
+    color: currentcolor;
+}
+.md-typeset pre > code {
+    box-shadow: none;
+}
+.md-typeset pre > code::-webkit-scrollbar-thumb {
+    background-color: rgba(38, 42, 43, 0.32);
+}
+.md-typeset kbd {
+    color: rgb(195, 216, 247);
+    background-color: rgba(33, 35, 37, 0.12);
+    box-shadow: rgb(24, 26, 33) 0px 0.1rem 0px 0.05rem,
+    rgb(24, 26, 33) 0px 0.1rem 0px,
+    rgba(33, 35, 37, 0.2) 0px -0.1rem 0.2rem inset;
+}
+.md-typeset mark {
+    color: inherit;
+    background-color: rgba(0, 60, 164, 0.3);
+}
+.md-typeset abbr {
+    text-decoration-color: currentcolor;
+    border-bottom-color: rgba(14, 25, 103, 0.62);
+}
+.md-typeset blockquote {
+    color: rgba(178, 206, 245, 0.62);
+    border-left-color: rgba(14, 25, 103, 0.32);
+}
+[dir="rtl"] .md-typeset blockquote {
+    border-right-color: rgba(14, 25, 103, 0.32);
+    border-left-color: initial;
+}
+.md-typeset table:not([class]) {
+    background-color: rgb(37, 38, 50);
+    background-image: none;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0.2rem 0.5rem,
+    rgba(0, 0, 0, 0.1) 0px 0px 0.05rem;
+}
+.md-typeset table:not([class]) th {
+    color: rgb(198, 193, 185);
+    background-color: rgba(38, 42, 43, 0.62);
+}
+.md-typeset table:not([class]) th a {
+    color: inherit;
+}
+.md-typeset table:not([class]) td {
+    border-top-color: rgba(14, 25, 103, 0.12);
+}
+.md-typeset table:not([class]) tr:hover {
+    background-color: rgba(0, 0, 0, 0.04);
+    box-shadow: rgb(37, 38, 50) 0px 0.05rem 0px inset;
+}
+.md-typeset table:not([class]) tr:first-child td {
+    border-top-color: currentcolor;
+}
+.md-typeset table th[role="columnheader"][aria-sort="ascending"]::after {
+    background-color: currentcolor;
+}
+.md-typeset table th[role="columnheader"][aria-sort="descending"]::after {
+    background-color: currentcolor;
+}
+body {
+    background-color: rgb(37, 38, 50);
+}
+hr {
+    border-color: currentcolor;
+}
+.md-overlay {
+    background-color: rgba(0, 0, 0, 0.54);
+}
+.md-skip {
+    color: rgb(198, 193, 185);
+    background-color: rgb(31, 34, 35);
+}
+.md-announce {
+    background-color: rgba(21, 22, 28, 0.87);
+}
+.md-announce__inner {
+    color: rgb(232, 230, 227);
+}
+.md-typeset .md-button {
+    color: rgb(232, 230, 227);
+    border-color: currentcolor;
+}
+.md-typeset .md-button--primary {
+    color: rgb(232, 230, 227);
+    background-color: rgb(0, 0, 0);
+    border-color: rgb(140, 130, 115);
+}
+.md-typeset .md-button:focus,
+.md-typeset .md-button:hover {
+    color: rgb(232, 230, 227);
+    background-color: rgb(164, 38, 0);
+    border-color: rgb(159, 37, 0);
+}
+.md-clipboard {
+    color: rgba(178, 206, 245, 0.12);
+}
+pre:hover .md-clipboard {
+    color: rgba(178, 206, 245, 0.62);
+}
+pre .md-clipboard:focus,
+pre .md-clipboard:hover {
+    color: rgb(255, 114, 72);
+}
+.md-typeset .md-content__button {
+    color: rgba(178, 206, 245, 0.32);
+}
+.md-dialog {
+    box-shadow: rgba(0, 0, 0, 0.14) 0px 2px 2px 0px,
+    rgba(0, 0, 0, 0.12) 0px 1px 5px 0px,
+    rgba(0, 0, 0, 0.2) 0px 3px 1px -2px;
+    color: rgb(198, 193, 185);
+    background-color: rgb(31, 34, 35);
+    background-image: none;
+    border-color: currentcolor;
+}
+.md-header {
+    color: rgb(232, 230, 227);
+    background-color: rgb(0, 0, 0);
+    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0.2rem,
+    rgba(0, 0, 0, 0) 0px 0.2rem 0.4rem;
+}
+.no-js .md-header {
+    box-shadow: none;
+}
+.md-header[data-md-state="shadow"] {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 0.2rem,
+    rgba(0, 0, 0, 0.2) 0px 0.2rem 0.4rem;
+}
+.md-header-nav__button.md-logo img,
+.md-header-nav__button.md-logo svg {
+    fill: currentcolor;
+}
+.md-hero {
+    color: rgb(232, 230, 227);
+    background-color: rgb(0, 0, 0);
+}
+.md-footer {
+    color: rgb(232, 230, 227);
+    background-color: rgba(21, 22, 28, 0.87);
+}
+.md-footer-meta {
+    background-color: rgb(18, 18, 23);
+}
+html .md-footer-meta.md-typeset a {
+    color: rgba(232, 230, 227, 0.7);
+}
+html .md-footer-meta.md-typeset a:focus,
+html .md-footer-meta.md-typeset a:hover {
+    color: rgb(232, 230, 227);
+}
+.md-footer-copyright {
+    color: rgba(232, 230, 227, 0.3);
+}
+.md-footer-copyright__highlight {
+    color: rgba(232, 230, 227, 0.7);
+}
+.md-footer-social__link svg {
+    fill: currentcolor;
+}
+.md-nav__title .md-nav__button.md-logo svg {
+    fill: currentcolor;
+}
+.md-nav__list {
+    list-style-image: none;
+}
+.md-nav__link[data-md-state="blur"] {
+    color: rgba(178, 206, 245, 0.62);
+}
+.md-nav__item .md-nav__link--active {
+    color: rgba(232, 230, 227, 0.54);
+}
+.md-nav__item--nested > .md-nav__link {
+    color: inherit;
+}
+.md-nav__link:focus,
+.md-nav__link:hover {
+    color: rgb(255, 114, 72);
+}
+@media screen and (max-width: 76.1875em) {
+    .md-nav {
+        background-color: rgb(37, 38, 50);
+    }
+    .md-nav--primary .md-nav__title {
+        color: rgba(178, 206, 245, 0.62);
+        background-color: rgba(38, 42, 43, 0.12);
+    }
+    .md-nav--primary .md-nav__title ~ .md-nav__list {
+        background-color: rgb(37, 38, 50);
+        box-shadow: rgba(38, 42, 43, 0.12) 0px 0.05rem 0px inset;
+    }
+    .md-nav--primary .md-nav__title ~ .md-nav__list > .md-nav__item:first-child {
+        border-top-color: currentcolor;
+    }
+    .md-nav--primary .md-nav__title[for="__drawer"] {
+        color: rgb(232, 230, 227);
+        background-color: rgb(0, 0, 0);
+    }
+    .md-nav--primary .md-nav__item {
+        border-top-color: rgba(14, 25, 103, 0.12);
+    }
+    .md-nav--primary .md-nav__item--active > .md-nav__link {
+        color: rgba(232, 230, 227, 0.54);
+    }
+    .md-nav--primary .md-nav__item--active > .md-nav__link:focus,
+    .md-nav--primary .md-nav__item--active > .md-nav__link:hover {
+        color: rgb(255, 114, 72);
+    }
+    .md-nav--primary .md-nav__link .md-nav__icon {
+        color: inherit;
+    }
+    .md-nav--primary .md-nav--secondary .md-nav {
+        background-color: transparent;
+    }
+}
+@media screen and (max-width: 59.9375em) {
+    .md-nav__source {
+        color: rgb(232, 230, 227);
+        background-color: rgb(0, 0, 0);
+    }
+}
+@media screen and (max-width: 59.9375em) {
+    .md-search__overlay {
+        background-color: rgb(37, 38, 50);
+    }
+}
+@media screen and (min-width: 60em) {
+    .md-search__overlay {
+        background-color: rgba(0, 0, 0, 0.54);
+    }
+}
+.md-search__input {
+    background-color: rgb(37, 38, 50);
+}
+.md-search__input::-webkit-input-placeholder {
+    color: rgba(178, 206, 245, 0.62);
+}
+.md-search__input::placeholder {
+    color: rgba(178, 206, 245, 0.62);
+}
+.md-search__input ~ .md-search__icon,
+.md-search__input::placeholder {
+    color: rgba(178, 206, 245, 0.62);
+}
+@media screen and (min-width: 60em) {
+    .md-search__input {
+        color: inherit;
+        background-color: rgba(0, 0, 0, 0.26);
+    }
+    .md-search__input + .md-search__icon {
+        color: rgb(232, 230, 227);
+    }
+    .md-search__input::-webkit-input-placeholder {
+        color: rgba(232, 230, 227, 0.7);
+    }
+    .md-search__input::placeholder {
+        color: rgba(232, 230, 227, 0.7);
+    }
+    .md-search__input::placeholder {
+        color: rgba(232, 230, 227, 0.7);
+    }
+    .md-search__input:hover {
+        background-color: rgba(24, 26, 27, 0.12);
+    }
+    [data-md-toggle="search"]:checked ~ .md-header .md-search__input {
+        color: rgb(195, 216, 247);
+        background-color: rgb(37, 38, 50);
+    }
+    [data-md-toggle="search"]:checked ~ .md-header .md-search__input::-webkit-input-placeholder {
+        color: rgba(178, 206, 245, 0.62);
+    }
+    [data-md-toggle="search"]:checked ~ .md-header .md-search__input::placeholder {
+        color: rgba(178, 206, 245, 0.62);
+    }
+    [data-md-toggle="search"]:checked ~ .md-header .md-search__input + .md-search__icon, [data-md-toggle="search"]:checked ~ .md-header .md-search__input::placeholder {
+        color: rgba(178, 206, 245, 0.62);
+    }
+}
+@media screen and (min-width: 60em) {
+    [data-md-toggle="search"]:checked ~ .md-header .md-search__output {
+        box-shadow: rgba(0, 0, 0, 0.14) 0px 6px 10px 0px,
+        rgba(0, 0, 0, 0.12) 0px 1px 18px 0px,
+        rgba(0, 0, 0, 0.4) 0px 3px 5px -1px;
+    }
+}
+.md-search__scrollwrap {
+    background-color: rgb(37, 38, 50);
+}
+@media screen and (min-width: 60em) {
+    .md-search__scrollwrap::-webkit-scrollbar-thumb {
+        background-color: rgba(38, 42, 43, 0.32);
+    }
+}
+.md-search-result {
+    color: rgb(195, 216, 247);
+}
+.md-search-result__meta {
+    color: rgba(178, 206, 245, 0.62);
+    background-color: rgba(38, 42, 43, 0.12);
+}
+.md-search-result__list {
+    list-style-image: none;
+}
+.md-search-result__item {
+    box-shadow: rgba(38, 42, 43, 0.12) 0px -0.05rem 0px;
+}
+.md-search-result__item:first-child {
+    box-shadow: none;
+}
+.md-search-result__link {
+    outline-color: currentcolor;
+}
+.md-search-result__link:focus,
+.md-search-result__link:hover {
+    background-color: rgba(164, 38, 0, 0.1);
+}
+.md-search-result__icon {
+    color: rgba(178, 206, 245, 0.62);
+}
+.md-search-result__teaser {
+    color: rgba(178, 206, 245, 0.62);
+}
+.md-search-result em {
+    text-decoration-color: currentcolor;
+}
+@media screen and (max-width: 76.1875em) {
+    .md-sidebar--primary {
+        background-color: rgb(37, 38, 50);
+    }
+    [data-md-toggle="drawer"]:checked ~ .md-container .md-sidebar--primary {
+        box-shadow: rgba(0, 0, 0, 0.14) 0px 8px 10px 1px,
+        rgba(0, 0, 0, 0.12) 0px 3px 14px 2px,
+        rgba(0, 0, 0, 0.4) 0px 5px 5px -3px;
+    }
+}
+.md-sidebar__scrollwrap::-webkit-scrollbar-thumb {
+    background-color: rgba(38, 42, 43, 0.32);
+}
+.md-tabs {
+    color: rgb(232, 230, 227);
+    background-color: rgb(0, 0, 0);
+}
+.md-tabs__list {
+    list-style-image: none;
+}
+.md-tabs__link--active,
+.md-tabs__link:hover {
+    color: inherit;
+}
+.md-typeset .admonition,
+.md-typeset details {
+    color: rgba(232, 230, 227, 0.87);
+    background-color: rgba(24, 26, 27, 0.02);
+    border-left-color: rgb(0, 59, 158);
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0.2rem 0.5rem,
+    rgba(0, 0, 0, 0.1) 0px 0px 0.05rem;
+}
+[dir="rtl"] .md-typeset .admonition, [dir="rtl"] .md-typeset details {
+    border-right-color: rgb(0, 59, 158);
+    border-left-color: currentcolor;
+}
+.md-typeset .admonition-title,
+.md-typeset summary {
+    background-color: rgba(0, 61, 163, 0.1);
+}
+.md-typeset .admonition-title::before,
+.md-typeset summary::before {
+    background-color: rgb(0, 61, 163);
+}
+.md-typeset .admonition-title code,
+.md-typeset summary code {
+    color: currentcolor;
+    background-color: transparent;
+    box-shadow: none;
+}
+.md-typeset .admonition.note,
+.md-typeset details.note {
+    border-color: rgb(0, 59, 158);
+}
+.md-typeset .note > .admonition-title,
+.md-typeset .note > summary {
+    background-color: rgba(0, 61, 163, 0.1);
+}
+.md-typeset .note > .admonition-title::before,
+.md-typeset .note > summary::before {
+    background-color: rgb(0, 61, 163);
+}
+.md-typeset .admonition.abstract,
+.md-typeset details.abstract,
+.md-typeset .admonition.tldr,
+.md-typeset details.tldr,
+.md-typeset .admonition.summary,
+.md-typeset details.summary {
+    border-color: rgb(0, 123, 179);
+}
+.md-typeset .abstract > .admonition-title,
+.md-typeset .abstract > summary,
+.md-typeset .tldr > .admonition-title,
+.md-typeset .tldr > summary,
+.md-typeset .summary > .admonition-title,
+.md-typeset .summary > summary {
+    background-color: rgba(0, 141, 204, 0.1);
+}
+.md-typeset .abstract > .admonition-title::before,
+.md-typeset .abstract > summary::before,
+.md-typeset .tldr > .admonition-title::before,
+.md-typeset .tldr > summary::before,
+.md-typeset .summary > .admonition-title::before,
+.md-typeset .summary > summary::before {
+    background-color: rgb(0, 141, 204);
+}
+.md-typeset .admonition.info,
+.md-typeset details.info,
+.md-typeset .admonition.todo,
+.md-typeset details.todo {
+    border-color: rgb(0, 166, 191);
+}
+.md-typeset .info > .admonition-title,
+.md-typeset .info > summary,
+.md-typeset .todo > .admonition-title,
+.md-typeset .todo > summary {
+    background-color: rgba(0, 147, 170, 0.1);
+}
+.md-typeset .info > .admonition-title::before,
+.md-typeset .info > summary::before,
+.md-typeset .todo > .admonition-title::before,
+.md-typeset .todo > summary::before {
+    background-color: rgb(0, 147, 170);
+}
+.md-typeset .admonition.tip,
+.md-typeset details.tip,
+.md-typeset .admonition.important,
+.md-typeset details.important,
+.md-typeset .admonition.hint,
+.md-typeset details.hint {
+    border-color: rgb(0, 198, 171);
+}
+.md-typeset .tip > .admonition-title,
+.md-typeset .tip > summary,
+.md-typeset .important > .admonition-title,
+.md-typeset .important > summary,
+.md-typeset .hint > .admonition-title,
+.md-typeset .hint > summary {
+    background-color: rgba(0, 153, 132, 0.1);
+}
+.md-typeset .tip > .admonition-title::before,
+.md-typeset .tip > summary::before,
+.md-typeset .important > .admonition-title::before,
+.md-typeset .important > summary::before,
+.md-typeset .hint > .admonition-title::before,
+.md-typeset .hint > summary::before {
+    background-color: rgb(0, 153, 132);
+}
+.md-typeset .admonition.success,
+.md-typeset details.success,
+.md-typeset .admonition.done,
+.md-typeset details.done,
+.md-typeset .admonition.check,
+.md-typeset details.check {
+    border-color: rgb(0, 195, 81);
+}
+.md-typeset .success > .admonition-title,
+.md-typeset .success > summary,
+.md-typeset .done > .admonition-title,
+.md-typeset .done > summary,
+.md-typeset .check > .admonition-title,
+.md-typeset .check > summary {
+    background-color: rgba(0, 160, 66, 0.1);
+}
+.md-typeset .success > .admonition-title::before,
+.md-typeset .success > summary::before,
+.md-typeset .done > .admonition-title::before,
+.md-typeset .done > summary::before,
+.md-typeset .check > .admonition-title::before,
+.md-typeset .check > summary::before {
+    background-color: rgb(0, 160, 66);
+}
+.md-typeset .admonition.question,
+.md-typeset details.question,
+.md-typeset .admonition.faq,
+.md-typeset details.faq,
+.md-typeset .admonition.help,
+.md-typeset details.help {
+    border-color: rgb(75, 165, 17);
+}
+.md-typeset .question > .admonition-title,
+.md-typeset .question > summary,
+.md-typeset .faq > .admonition-title,
+.md-typeset .faq > summary,
+.md-typeset .help > .admonition-title,
+.md-typeset .help > summary {
+    background-color: rgba(80, 177, 18, 0.1);
+}
+.md-typeset .question > .admonition-title::before,
+.md-typeset .question > summary::before,
+.md-typeset .faq > .admonition-title::before,
+.md-typeset .faq > summary::before,
+.md-typeset .help > .admonition-title::before,
+.md-typeset .help > summary::before {
+    background-color: rgb(80, 177, 18);
+}
+.md-typeset .admonition.warning,
+.md-typeset details.warning,
+.md-typeset .admonition.attention,
+.md-typeset details.attention,
+.md-typeset .admonition.caution,
+.md-typeset details.caution {
+    border-color: rgb(179, 102, 0);
+}
+.md-typeset .warning > .admonition-title,
+.md-typeset .warning > summary,
+.md-typeset .attention > .admonition-title,
+.md-typeset .attention > summary,
+.md-typeset .caution > .admonition-title,
+.md-typeset .caution > summary {
+    background-color: rgba(204, 116, 0, 0.1);
+}
+.md-typeset .warning > .admonition-title::before,
+.md-typeset .warning > summary::before,
+.md-typeset .attention > .admonition-title::before,
+.md-typeset .attention > summary::before,
+.md-typeset .caution > .admonition-title::before,
+.md-typeset .caution > summary::before {
+    background-color: rgb(204, 116, 0);
+}
+.md-typeset .admonition.failure,
+.md-typeset details.failure,
+.md-typeset .admonition.missing,
+.md-typeset details.missing,
+.md-typeset .admonition.fail,
+.md-typeset details.fail {
+    border-color: rgb(154, 0, 0);
+}
+.md-typeset .failure > .admonition-title,
+.md-typeset .failure > summary,
+.md-typeset .missing > .admonition-title,
+.md-typeset .missing > summary,
+.md-typeset .fail > .admonition-title,
+.md-typeset .fail > summary {
+    background-color: rgba(155, 0, 0, 0.1);
+}
+.md-typeset .failure > .admonition-title::before,
+.md-typeset .failure > summary::before,
+.md-typeset .missing > .admonition-title::before,
+.md-typeset .missing > summary::before,
+.md-typeset .fail > .admonition-title::before,
+.md-typeset .fail > summary::before {
+    background-color: rgb(155, 0, 0);
+}
+.md-typeset .admonition.danger,
+.md-typeset details.danger,
+.md-typeset .admonition.error,
+.md-typeset details.error {
+    border-color: rgb(172, 0, 33);
+}
+.md-typeset .danger > .admonition-title,
+.md-typeset .danger > summary,
+.md-typeset .error > .admonition-title,
+.md-typeset .error > summary {
+    background-color: rgba(190, 0, 37, 0.1);
+}
+.md-typeset .danger > .admonition-title::before,
+.md-typeset .danger > summary::before,
+.md-typeset .error > .admonition-title::before,
+.md-typeset .error > summary::before {
+    background-color: rgb(190, 0, 37);
+}
+.md-typeset .admonition.bug,
+.md-typeset details.bug {
+    border-color: rgb(182, 0, 64);
+}
+.md-typeset .bug > .admonition-title,
+.md-typeset .bug > summary {
+    background-color: rgba(196, 0, 70, 0.1);
+}
+.md-typeset .bug > .admonition-title::before,
+.md-typeset .bug > summary::before {
+    background-color: rgb(196, 0, 70);
+}
+.md-typeset .admonition.example,
+.md-typeset details.example {
+    border-color: rgb(53, 0, 169);
+}
+.md-typeset .example > .admonition-title,
+.md-typeset .example > summary {
+    background-color: rgba(58, 0, 185, 0.1);
+}
+.md-typeset .example > .admonition-title::before,
+.md-typeset .example > summary::before {
+    background-color: rgb(58, 0, 185);
+}
+.md-typeset .admonition.quote,
+.md-typeset details.quote,
+.md-typeset .admonition.cite,
+.md-typeset details.cite {
+    border-color: rgb(75, 82, 85);
+}
+.md-typeset .quote > .admonition-title,
+.md-typeset .quote > summary,
+.md-typeset .cite > .admonition-title,
+.md-typeset .cite > summary {
+    background-color: rgba(79, 85, 89, 0.1);
+}
+.md-typeset .quote > .admonition-title::before,
+.md-typeset .quote > summary::before,
+.md-typeset .cite > .admonition-title::before,
+.md-typeset .cite > summary::before {
+    background-color: rgb(79, 85, 89);
+}
+.codehilite .o,
+.highlight .o,
+.codehilite .ow,
+.highlight .ow {
+    color: rgba(232, 230, 227, 0.54);
+}
+.codehilite .p,
+.highlight .p {
+    color: rgba(232, 230, 227, 0.54);
+}
+.codehilite .cpf,
+.highlight .cpf,
+.codehilite .l,
+.highlight .l,
+.codehilite .s,
+.highlight .s,
+.codehilite .sb,
+.highlight .sb,
+.codehilite .sc,
+.highlight .sc,
+.codehilite .s2,
+.highlight .s2,
+.codehilite .si,
+.highlight .si,
+.codehilite .s1,
+.highlight .s1,
+.codehilite .ss,
+.highlight .ss {
+    color: rgb(91, 211, 151);
+}
+.codehilite .cp,
+.highlight .cp,
+.codehilite .se,
+.highlight .se,
+.codehilite .sh,
+.highlight .sh,
+.codehilite .sr,
+.highlight .sr,
+.codehilite .sx,
+.highlight .sx {
+    color: rgb(240, 97, 145);
+}
+.codehilite .m,
+.highlight .m,
+.codehilite .mf,
+.highlight .mf,
+.codehilite .mh,
+.highlight .mh,
+.codehilite .mi,
+.highlight .mi,
+.codehilite .il,
+.highlight .il,
+.codehilite .mo,
+.highlight .mo {
+    color: rgb(231, 110, 96);
+}
+.codehilite .k,
+.highlight .k,
+.codehilite .kd,
+.highlight .kd,
+.codehilite .kn,
+.highlight .kn,
+.codehilite .kp,
+.highlight .kp,
+.codehilite .kr,
+.highlight .kr,
+.codehilite .kt,
+.highlight .kt {
+    color: rgb(106, 165, 225);
+}
+.codehilite .kc,
+.highlight .kc,
+.codehilite .n,
+.highlight .n {
+    color: rgb(190, 185, 176);
+}
+.codehilite .no,
+.highlight .no,
+.codehilite .nb,
+.highlight .nb,
+.codehilite .bp,
+.highlight .bp {
+    color: rgb(143, 127, 225);
+}
+.codehilite .nc,
+.highlight .nc,
+.codehilite .ne,
+.highlight .ne,
+.codehilite .nf,
+.highlight .nf,
+.codehilite .nn,
+.highlight .nn {
+    color: rgb(202, 117, 218);
+}
+.codehilite .nd,
+.highlight .nd,
+.codehilite .ni,
+.highlight .ni,
+.codehilite .nl,
+.highlight .nl,
+.codehilite .nt,
+.highlight .nt {
+    color: rgb(106, 165, 225);
+}
+.codehilite .c,
+.highlight .c,
+.codehilite .cm,
+.highlight .cm,
+.codehilite .c1,
+.highlight .c1,
+.codehilite .ch,
+.highlight .ch,
+.codehilite .cs,
+.highlight .cs,
+.codehilite .sd,
+.highlight .sd {
+    color: rgba(232, 230, 227, 0.54);
+}
+.codehilite .na,
+.highlight .na,
+.codehilite .nv,
+.highlight .nv,
+.codehilite .vc,
+.highlight .vc,
+.codehilite .vg,
+.highlight .vg,
+.codehilite .vi,
+.highlight .vi {
+    color: rgba(232, 230, 227, 0.54);
+}
+.codehilite .ge,
+.highlight .ge,
+.codehilite .gr,
+.highlight .gr,
+.codehilite .gh,
+.highlight .gh,
+.codehilite .go,
+.highlight .go,
+.codehilite .gp,
+.highlight .gp,
+.codehilite .gs,
+.highlight .gs,
+.codehilite .gu,
+.highlight .gu,
+.codehilite .gt,
+.highlight .gt {
+    color: rgba(232, 230, 227, 0.54);
+}
+.codehilite .gd,
+.highlight .gd {
+    background-color: rgba(165, 25, 9, 0.15);
+}
+.codehilite .gi,
+.highlight .gi {
+    background-color: rgba(9, 170, 90, 0.15);
+}
+.codehilite .hll,
+.highlight .hll {
+    background-color: rgba(0, 60, 164, 0.15);
+}
+.codehilitetable .linenos,
+.highlighttable .linenos {
+    background-color: rgb(26, 27, 35);
+}
+.codehilitetable .linenodiv,
+.highlighttable .linenodiv {
+    box-shadow: rgba(38, 42, 43, 0.32) -0.05rem 0px inset;
+}
+.codehilitetable .linenodiv pre,
+.highlighttable .linenodiv pre {
+    color: rgba(178, 206, 245, 0.62);
+}
+.md-typeset .footnote {
+    color: rgba(178, 206, 245, 0.62);
+}
+.md-typeset .footnote li:target {
+    color: rgb(195, 216, 247);
+}
+.md-typeset .footnote li:hover .footnote-backref:hover {
+    color: rgb(255, 114, 72);
+}
+.md-typeset .footnote-backref {
+    color: rgba(232, 230, 227, 0.54);
+}
+.md-typeset .footnote-backref::before {
+    background-color: currentcolor;
+}
+html body .md-typeset .headerlink {
+    color: rgba(178, 206, 245, 0.32);
+}
+.md-typeset :target > .headerlink,
+.md-typeset .headerlink:focus,
+.md-typeset .headerlink:hover {
+    color: rgb(255, 114, 72);
+}
+.md-typeset del.critic {
+    background-color: rgba(165, 25, 9, 0.15);
+}
+.md-typeset ins.critic {
+    background-color: rgba(9, 170, 90, 0.15);
+}
+.md-typeset .critic.comment {
+    color: rgba(232, 230, 227, 0.54);
+}
+.md-typeset .critic.block {
+    box-shadow: none;
+}
+@media (hover: none) {
+    .md-typeset summary {
+        outline-color: currentcolor;
+    }
+}
+.md-typeset summary::after {
+    background-color: currentcolor;
+}
+.md-typeset span.twemoji svg {
+    fill: currentcolor;
+}
+.highlight [data-linenos]::before {
+    color: rgba(178, 206, 245, 0.62);
+    background-color: rgb(26, 27, 35);
+    box-shadow: rgba(38, 42, 43, 0.32) -0.05rem 0px inset;
+}
+.md-typeset .keys kbd::before,
+.md-typeset .keys kbd::after {
+    color: inherit;
+}
+.md-typeset .keys span {
+    color: rgba(178, 206, 245, 0.62);
+}
+.md-typeset .tabbed-content {
+    box-shadow: rgba(38, 42, 43, 0.12) 0px -0.05rem;
+}
+.md-typeset .tabbed-set > input:checked + label {
+    color: rgb(255, 114, 72);
+    border-color: rgb(159, 37, 0);
+}
+.md-typeset .tabbed-set > input:focus + label {
+    outline-color: currentcolor;
+}
+.md-typeset .tabbed-set > label {
+    color: rgba(178, 206, 245, 0.62);
+    border-bottom-color: transparent;
+}
+html .md-typeset .tabbed-set > label:hover {
+    color: rgb(255, 114, 72);
+}
+.md-typeset .task-list-control .task-list-indicator::before {
+    background-color: rgba(38, 42, 43, 0.12);
+}
+.md-typeset .task-list-control [type="checkbox"]:checked + .task-list-indicator::before {
+    background-color: rgb(0, 184, 94);
+}
+[data-md-color-primary="white"] .md-hero--expand {
+    border-bottom-color: rgba(140, 130, 115, 0.07);
+}
+@media screen and (max-width: 76.1875em) {
+    [data-md-color-primary="white"] .md-hero {
+        border-bottom-color: rgba(140, 130, 115, 0.07);
+    }
+}
+@media screen and (min-width: 60em) {
+    [data-md-color-primary="white"] .md-search__input {
+        background-color: rgba(0, 0, 0, 0.07);
+    }
+    [data-md-color-primary="white"] .md-search__input + .md-search__icon {
+        color: rgba(232, 230, 227, 0.87);
+    }
+    [data-md-color-primary="white"] .md-search__input::-webkit-input-placeholder {
+        color: rgba(232, 230, 227, 0.54);
+    }
+    [data-md-color-primary="white"] .md-search__input::placeholder {
+        color: rgba(232, 230, 227, 0.54);
+    }
+    [data-md-color-primary="white"] .md-search__input::placeholder {
+        color: rgba(232, 230, 227, 0.54);
+    }
+    [data-md-color-primary="white"] .md-search__input:hover {
+        background-color: rgba(0, 0, 0, 0.32);
+    }
+}
+@media screen and (min-width: 76.25em) {
+    [data-md-color-primary="white"] .md-tabs {
+        border-bottom-color: rgba(140, 130, 115, 0.07);
+    }
+}
+[data-md-color-primary="black"] .md-header {
+    background-color: rgb(0, 0, 0);
+}
+[data-md-color-primary="black"] .md-hero {
+    background-color: rgb(0, 0, 0);
+}
+@media screen and (max-width: 59.9375em) {
+    [data-md-color-primary="black"] .md-nav__source {
+        background-color: rgba(0, 0, 0, 0.87);
+    }
+}
+@media screen and (min-width: 60em) {
+    [data-md-color-primary="black"] .md-search__input {
+        background-color: rgba(24, 26, 27, 0.12);
+    }
+    [data-md-color-primary="black"] .md-search__input:hover {
+        background-color: rgba(24, 26, 27, 0.3);
+    }
+}
+@media screen and (max-width: 76.1875em) {
+    html [data-md-color-primary="black"] .md-nav--primary .md-nav__title[for="__drawer"] {
+        background-color: rgb(0, 0, 0);
+    }
+}
+@media screen and (min-width: 76.25em) {
+    [data-md-color-primary="black"] .md-tabs {
+        background-color: rgb(0, 0, 0);
+    }
+}
+.md-typeset .tx-insiders {
+    color: rgb(235, 51, 114);
+}
+.md-typeset .tx-switch button > code {
+    color: rgb(232, 230, 227);
+    background-color: rgb(0, 0, 0);
+}
+.md-announce a,
+.md-announce a:focus,
+.md-announce a:hover {
+    color: currentcolor;
+}
+.md-announce .twitter {
+    color: rgb(37, 195, 255);
+}
+.tx-container {
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1123 258'><path d='M1124,2c0,0 0,256 0,256l-1125,0l0,-48c0,0 16,5 55,5c116,0 197,-92 325,-92c121,0 114,46 254,46c140,0 214,-167 572,-166Z' style='fill: hsla(0, 0%, 100%, 1)' /></svg>"),linear-gradient(rgb(0, 0, 0),rgb(116, 31, 158) 99%,rgb(37, 38, 50) 99%);
+}
+[data-md-color-scheme="slate"] .tx-container {
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1123 258'><path d='M1124,2c0,0 0,256 0,256l-1125,0l0,-48c0,0 16,5 55,5c116,0 197,-92 325,-92c121,0 114,46 254,46c140,0 214,-167 572,-166Z' style='fill: hsla(232, 15%, 21%, 1)' /></svg>"),
+    linear-gradient(rgb(0, 0, 0),
+    rgb(116, 31, 158) 99%,
+    rgb(37, 38, 50) 99%);
+}
+.tx-content__footer a {
+    color: rgb(235, 51, 114);
+}
+.tx-content__footer hr {
+    background-color: currentcolor;
+    border-color: currentcolor;
+}
+.tx-hero {
+    color: rgb(232, 230, 227);
+}
+.tx-hero h1 {
+    color: currentcolor;
+}
+.tx-hero .md-button {
+    color: rgb(232, 230, 227);
+}
+.tx-hero .md-button:hover,
+.tx-hero .md-button:focus {
+    color: rgb(198, 193, 185);
+    background-color: rgb(164, 38, 0);
+    border-color: rgb(159, 37, 0);
+}
+.tx-hero .md-button--primary {
+    color: rgb(157, 102, 185);
+    background-color: rgb(24, 26, 27);
+    border-color: rgb(48, 52, 54);
+}
