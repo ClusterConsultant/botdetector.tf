@@ -1,0 +1,99 @@
+header {
+  height: 100vh;
+}
+
+* {
+  scrollbar-color: #FB524F rgb(64, 63, 63);
+  scrollbar-width: thin;
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(64, 63, 63);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #FB524F;
+}
+
+::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+.dark-header {
+  background-color: #212121;
+}
+
+.btn,
+.btn-lg {
+  border-radius: 0;
+}
+
+a.text-light.focus {
+  color: #cbd3da !important;
+}
+
+section {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+footer {
+  color: #f8f9fa;
+  padding: 0;
+}
+
+.modal-lg {
+  max-width: 85%;
+}
+
+a {
+  color: #FB524F;
+  transition: 0.25s;
+  text-decoration: none;
+}
+
+.bi {
+  display: inline-block;
+  vertical-align: text-bottom;
+}
+
+a:hover {
+  color: #f82a26 ;
+  text-decoration: none;
+}
+
+.btn-outline-primary {
+  color: #FB524F;
+  border-color: #FB524F;
+}
+
+.btn-outline-primary:hover,
+.btn-outline-primary:not(:disabled):not(.disabled).active,
+.btn-outline-primary:not(:disabled):not(.disabled):active {
+  color: #fff;
+  background-color: #FB524F;
+  border-color: #FB524F;
+}
+
+.btn-primary,
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active {
+  background-color: #FB524F;
+  border-color: #FB524F;
+}
+
+.btn-primary:hover,
+.btn-primary.focus,
+.btn-primary:focus {
+  background-color: #FB524F;
+  border-color: #FB524F;
+}
+
+.img-logo {
+  height: 15vh;
+}
+
+html {
+  scroll-behavior: smooth;
+}
