@@ -36,6 +36,7 @@ a.text-light.focus {
 section {
   padding-top: 2rem;
   padding-bottom: 2rem;
+  
 }
 
 footer {
@@ -59,7 +60,7 @@ a {
 }
 
 a:hover {
-  color: #f82a26 ;
+  color: #ffffff ;
   text-decoration: none;
 }
 
@@ -96,4 +97,9 @@ a:hover {
 
 html {
   scroll-behavior: smooth;
+}
+
+.container-img {
+  max-width: 100%;
+  height: auto;
 }
