@@ -67,6 +67,7 @@ a:hover {
 .btn-outline-primary {
   color: #FB524F;
   border-color: #FB524F;
+  margin-bottom: 2em;
 }
 
 .btn-outline-primary:hover,
