@@ -30,7 +30,7 @@ header {
 }
 
 a.text-light.focus {
-  color: #cbd3da !important;
+  color: #dddddd !important;
 }
 
 section {
@@ -40,7 +40,7 @@ section {
 }
 
 footer {
-  color: #f8f9fa;
+  color: #dddddd;
   padding: 0;
 }
 
@@ -60,7 +60,7 @@ a {
 }
 
 a:hover {
-  color: #ffffff ;
+  color: #dddddd ;
   text-decoration: none;
 }
 
@@ -72,7 +72,7 @@ a:hover {
 .btn-outline-primary:hover,
 .btn-outline-primary:not(:disabled):not(.disabled).active,
 .btn-outline-primary:not(:disabled):not(.disabled):active {
-  color: #fff;
+  color: #dddddd;
   background-color: #FB524F;
   border-color: #FB524F;
 }
@@ -97,6 +97,9 @@ a:hover {
 
 html {
   scroll-behavior: smooth;
+  scroll-snap-type: mandatory;
+  scroll-snap-type: y mandatory;
+}
 }
 
 .container-img {
@@ -106,4 +109,16 @@ html {
 .BGcontainer
 {
 background-image: url('../img/darth-stripe.webp');
+}
+.text-logo
+{
+  color: #dddddd;
+}
+
+section {
+  scroll-snap-align: start;
+}
+header {
+  scroll-snap-align: start;
+  
 }
