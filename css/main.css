@@ -93,7 +93,8 @@ a {
 
 html {
   scroll-behavior: smooth;
-  scroll-snap-type: y mandatory;
+  scroll-snap-type: y proximity;
+  scroll-snap-stop: normal;
 }
 }
 
@@ -107,7 +108,6 @@ background-image: url('../img/darth-stripe.webp');
 }
 
 section {
-  scroll-snap-align: start;
   color: #ddd;
   text-shadow: 3px 2px 3px rgb(0, 0, 0);
 }
@@ -140,4 +140,7 @@ a:hover {
 .containertext {
   color: #ddd;
   text-shadow: 3px 2px 3px rgb(0, 0, 0);
+}
+.scrollstop {
+  scroll-snap-align: start;
 }
