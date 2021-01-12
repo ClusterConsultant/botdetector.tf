@@ -30,7 +30,7 @@ header {
 }
 
 a.text-light.focus {
-  color: #cbd3da !important;
+  color: #dddddd !important;
 }
 
 section {
@@ -40,8 +40,8 @@ section {
 }
 
 footer {
-  color: #f8f9fa;
-  padding: 0;
+  padding: 2px;
+  color:#ddd;
 }
 
 .modal-lg {
@@ -59,10 +59,6 @@ a {
   vertical-align: text-bottom;
 }
 
-a:hover {
-  color: #ffffff ;
-  text-decoration: none;
-}
 
 .btn-outline-primary {
   color: #FB524F;
@@ -73,7 +69,7 @@ a:hover {
 .btn-outline-primary:hover,
 .btn-outline-primary:not(:disabled):not(.disabled).active,
 .btn-outline-primary:not(:disabled):not(.disabled):active {
-  color: #fff;
+  color: #dddddd;
   background-color: #FB524F;
   border-color: #FB524F;
 }
@@ -98,9 +94,67 @@ a:hover {
 
 html {
   scroll-behavior: smooth;
+  scroll-snap-type: y proximity;
+  scroll-snap-stop: normal;
 }
 
 .container-img {
   max-width: 100%;
   height: auto;
+}
+.BGcontainer
+{
+background-image: url('../img/darth-stripe.webp');
+}
+
+section {
+  color: #ddd;
+  text-shadow: 3px 3px 5px rgb(0, 0, 0);
+}
+header {
+  scroll-snap-align: start;
+  
+}
+footer {
+  scroll-snap-align: start;
+}
+.display-3
+{
+  color: #FB524F;
+  text-shadow: 3px 3px 5px rgb(0, 0, 0);
+}
+
+a:hover {
+  color: #dddddd;
+  text-shadow: 3 3 5px #000000;
+}
+.h1, .h2 {
+  color: #FB524F;
+  text-shadow: 3 3 5px #000000;
+  margin-bottom:1em;
+  line-height: 0.2em;
+}
+
+.containertext {
+  color: #ddd;
+  text-shadow: 3px 3px 5px rgb(0, 0, 0);
+}
+.scrollstop {
+  scroll-snap-align: start;
+}
+.headertext {
+  text-shadow: 3px 3px 5px rgb(0, 0, 0);
+  color:#ddd;
+}
+.fas {
+  color: #FB524F;
+}
+.mt-0 {
+  margin-bottom:0;
+  margin-top:0;
+  line-height: 1.3em;
+}
+p
+{
+  line-height: 1.3em;
 }
