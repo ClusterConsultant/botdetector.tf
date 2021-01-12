@@ -119,7 +119,7 @@ header {
 .display-4
 {
   color: #dddddd;
-  text-shadow: 0 0 10px #dddddd;
+  text-shadow: 0 0 10px #000000;
 }
 
 a:hover {
@@ -135,7 +135,7 @@ a:hover {
   margin-left:0px;
 }
 
-header p {
+.containertext {
   color: #ddd;
   text-shadow: 3px 2px 3px rgb(0, 0, 0);
 }
