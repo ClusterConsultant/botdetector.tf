@@ -1,4 +1,5 @@
-header {
+header 
+{
   height: 100vh;
 }
 
@@ -8,42 +9,51 @@ header {
   scroll-behavior: smooth;
 }
 
-::-webkit-scrollbar-track {
+::-webkit-scrollbar-track 
+{
   background: rgb(64, 63, 63);
 }
 
-::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb 
+{
   background: #FB524F;
 }
 
-::-webkit-scrollbar {
+::-webkit-scrollbar 
+{
   width: 0.5rem;
 }
 
-.dark-header {
+.dark-header 
+{
   background-color: #212121;
 }
 
 .btn,
-.btn-lg {
+.btn-lg 
+{
   border-radius: 0;
 }
 
-a.text-light.focus {
+a.text-light.focus 
+{
   color: #dddddd !important;
 }
 
-section {
+section 
+{
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
 
-footer {
+footer 
+{
   padding: 2px;
   color:#ddd;
 }
 
-.modal-lg {
+.modal-lg 
+{
   max-width: 85%;
 }
 
@@ -53,12 +63,14 @@ a {
   text-decoration: none;
 }
 
-.bi {
+.bi 
+{
   display: inline-block;
   vertical-align: text-bottom;
 }
 
-.btn-outline-primary {
+.btn-outline-primary 
+{
   color: #FB524F;
   border-color: #FB524F;
   margin-bottom: 1em;
@@ -68,7 +80,8 @@ a {
 
 .btn-outline-primary:hover,
 .btn-outline-primary:not(:disabled):not(.disabled).active,
-.btn-outline-primary:not(:disabled):not(.disabled):active {
+.btn-outline-primary:not(:disabled):not(.disabled):active 
+{
   color: #dddddd;
   background-color: #FB524F;
   border-color: #FB524F;
@@ -76,32 +89,38 @@ a {
 
 .btn-primary,
 .btn-primary:not(:disabled):not(.disabled).active,
-.btn-primary:not(:disabled):not(.disabled):active {
+.btn-primary:not(:disabled):not(.disabled):active 
+{
   background-color: #FB524F;
   border-color: #FB524F;
 }
 
 .btn-primary:hover,
 .btn-primary.focus,
-.btn-primary:focus {
+.btn-primary:focus 
+{
   background-color: #FB524F;
   border-color: #FB524F;
 }
 
-.img-logo {
+.img-logo 
+{
   height: 15vh;
 }
 
-html {
+html 
+{
   scroll-behavior: smooth;
 }
 
-.container-img {
+.container-img 
+{
   max-width: 100%;
   height: auto;
 }
 
-section {
+section 
+{
   color: #ddd;
 }
 .display-3
@@ -110,35 +129,42 @@ section {
   font-weight: 500;
 }
 
-a:hover {
+a:hover 
+{
   color: #dddddd;
 }
-.h1, .h2 {
+.h1, .h2 
+{
   color: #FB524F;
   margin-bottom:1em;
   line-height: 0.2em;
 }
 
-.containertext {
+.containertext 
+{
   color: #ddd;
 }
 
-.headertext {
+.headertext 
+{
   color:#ddd;
   word-spacing: 0.5em;
   width:100%;
   padding-bottom:1em;
 }
 
-.fas {
+.fas 
+{
   color: #FB524F
 }
 
-.material-icons {
+.material-icons 
+{
   color: #FB524F;
 }
 
-.mt-0 {
+.mt-0 
+{
   margin-bottom:0;
   margin-top:0;
   line-height: 1.3em;
