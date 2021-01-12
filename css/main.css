@@ -103,3 +103,7 @@ html {
   max-width: 100%;
   height: auto;
 }
+.BGcontainer
+{
+background-image: url('../img/darth-stripe.webp');
+}
