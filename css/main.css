@@ -61,6 +61,7 @@ a {
 .btn-outline-primary {
   color: #FB524F;
   border-color: #FB524F;
+  background-color: rgba(38, 50, 56, .15);
   margin-bottom: 1em;
   font-weight: 600;
   padding-bottom: 14px;
@@ -90,6 +91,7 @@ a {
 
 .img-logo {
   height: 15vh;
+  padding-left: 30px;
 }
 
 html {
