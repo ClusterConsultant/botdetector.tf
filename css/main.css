@@ -36,7 +36,6 @@ a.text-light.focus {
 section {
   padding-top: 2rem;
   padding-bottom: 2rem;
-  
 }
 
 footer {
@@ -59,11 +58,12 @@ a {
   vertical-align: text-bottom;
 }
 
-
 .btn-outline-primary {
   color: #FB524F;
   border-color: #FB524F;
   margin-bottom: 1em;
+  font-weight: 600;
+  padding-bottom: 14px;
 }
 
 .btn-outline-primary:hover,
@@ -100,51 +100,50 @@ html {
   max-width: 100%;
   height: auto;
 }
-.BGcontainer
-{
-background-image: url('../img/darth-stripe.webp');
-}
 
 section {
   color: #ddd;
-  text-shadow: 3px 3px 5px rgb(0, 0, 0);
 }
 .display-3
 {
   color: #FB524F;
-  text-shadow: 3px 3px 5px rgb(0, 0, 0);
+  font-weight: 500;
 }
 
 a:hover {
   color: #dddddd;
-  text-shadow: 3 3 5px #000000;
 }
 .h1, .h2 {
   color: #FB524F;
-  text-shadow: 3 3 5px #000000;
   margin-bottom:1em;
   line-height: 0.2em;
 }
 
 .containertext {
   color: #ddd;
-  text-shadow: 3px 3px 5px rgb(0, 0, 0);
 }
+
 .headertext {
-  text-shadow: 3px 3px 5px rgb(0, 0, 0);
   color:#ddd;
   word-spacing: 0.5em;
   width:100%;
   padding-bottom:1em;
 }
+
 .fas {
+  color: #FB524F
+}
+
+.material-icons {
   color: #FB524F;
 }
+
 .mt-0 {
   margin-bottom:0;
   margin-top:0;
   line-height: 1.3em;
 }
+
 p
 {
   line-height: 1.3em;
