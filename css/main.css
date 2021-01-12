@@ -144,3 +144,7 @@ a:hover {
 .scrollstop {
   scroll-snap-align: start;
 }
+p {
+  color: #ddd;
+  text-shadow: 3px 2px 3px rgb(0, 0, 0);
+}
