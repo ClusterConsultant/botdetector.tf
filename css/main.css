@@ -93,7 +93,6 @@ a {
 
 html {
   scroll-behavior: smooth;
-  scroll-snap-type: mandatory;
   scroll-snap-type: y mandatory;
 }
 }
@@ -115,6 +114,9 @@ section {
 header {
   scroll-snap-align: start;
   
+}
+footer {
+  scroll-snap-align: start;
 }
 .display-4
 {
