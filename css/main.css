@@ -63,7 +63,7 @@ a {
 .btn-outline-primary {
   color: #FB524F;
   border-color: #FB524F;
-  margin-bottom: 2em;
+  margin-bottom: 1em;
 }
 
 .btn-outline-primary:hover,
@@ -94,8 +94,6 @@ a {
 
 html {
   scroll-behavior: smooth;
-  scroll-snap-type: y proximity;
-  scroll-snap-stop: normal;
 }
 
 .container-img {
@@ -110,13 +108,6 @@ background-image: url('../img/darth-stripe.webp');
 section {
   color: #ddd;
   text-shadow: 3px 3px 5px rgb(0, 0, 0);
-}
-header {
-  scroll-snap-align: start;
-  
-}
-footer {
-  scroll-snap-align: start;
 }
 .display-3
 {
@@ -139,12 +130,12 @@ a:hover {
   color: #ddd;
   text-shadow: 3px 3px 5px rgb(0, 0, 0);
 }
-.scrollstop {
-  scroll-snap-align: start;
-}
 .headertext {
   text-shadow: 3px 3px 5px rgb(0, 0, 0);
   color:#ddd;
+  word-spacing: 0.5em;
+  width:100%;
+  padding-bottom:1em;
 }
 .fas {
   color: #FB524F;
