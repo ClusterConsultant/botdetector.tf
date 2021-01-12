@@ -120,8 +120,8 @@ footer {
 }
 .display-3
 {
-  color: #dddddd;
-  text-shadow: 0 0 10px #ddd;
+  color: #FB524F;
+  text-shadow: 0 0 8px rgba(255, 0, 0, 0.521);
 }
 
 a:hover {
