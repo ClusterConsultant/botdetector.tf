@@ -1,14 +1,17 @@
-.home-header {
+.home-header 
+{
     background: linear-gradient(rgba(38, 50, 56, 0.7) 10%, rgba(38, 50, 56, 0.7)), url('../img/cp_coldfront.webp');
     background-size: cover;
     background-position: center
 }
 
-.img-separator {
+.img-separator 
+{
     height: 20vh
 }
 
-.unselectable {
+.unselectable 
+{
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -khtml-user-select: none;
