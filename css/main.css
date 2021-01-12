@@ -40,8 +40,8 @@ section {
 }
 
 footer {
-  color: #dddddd;
-  padding: 0;
+  padding: 2px;
+  color:#ddd;
 }
 
 .modal-lg {
@@ -59,10 +59,6 @@ a {
   vertical-align: text-bottom;
 }
 
-a:hover {
-  color: #dddddd ;
-  text-decoration: none;
-}
 
 .btn-outline-primary {
   color: #FB524F;
@@ -110,15 +106,31 @@ html {
 {
 background-image: url('../img/darth-stripe.webp');
 }
-.text-logo
-{
-  color: #dddddd;
-}
 
 section {
   scroll-snap-align: start;
+  color: #ddd;
+  text-shadow: 3px 2px 3px rgb(0, 0, 0);
 }
 header {
   scroll-snap-align: start;
   
+}
+.display-4
+{
+  color: #dddddd;
+  text-shadow: 0 0 10px #dddddd;
+}
+
+a:hover {
+  color: #dddddd;
+  text-shadow: 0 0 2px #dddddd;
+}
+.h2 {
+  color: #dddddd;
+  text-shadow: 0 0 5px #dddddd;
+}
+
+.vacimg {
+  margin-left:0px;
 }
