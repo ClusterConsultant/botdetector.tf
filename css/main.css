@@ -116,8 +116,8 @@ a:hover {
 }
 .h1, .h2 {
   color: #FB524F;
-  margin-bottom:1em;
-  line-height: 0.2em;
+  margin-bottom:0.4em;
+  margin-top:-0.4em;
 }
 
 .containertext {
